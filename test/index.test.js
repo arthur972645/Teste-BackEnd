@@ -1,6 +1,5 @@
 // teste.js
 import { listaDeFrutar , areaQuadrado } from "./aula_01/index.js";  // Importa a função corretamente
-
 test("verificar se tem genipapo", () => {
     expect(listaDeFrutar()).toContain("Genipapo");  // Verifica se contém "Genipapo"
 });
@@ -23,3 +22,4 @@ test("Compara strings",() => {
 test("verificar se tem genipapo", () => {
     expect(listaDeFrutar()).toContain("Genipapo");
 });
+
